@@ -25,7 +25,7 @@ namespace GranteGen
             Button remBtn = removeButton(canvas,ins);
             Button helBtn = helpButton("テキスト", helper_text);
             TextBox maintex = componenttxBox(100);
-            maintex.Text = "#unko\r\nうんこおお";
+            maintex.Text = "";
             Label lb = label_title("テキスト",1);
             canvas.Children.Add(lb);
             canvas.Children.Add(maintex);
