@@ -1,0 +1,17 @@
+﻿<Page x:Class="GranteGen.pages.NewScene"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GranteGen.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="728" d:DesignWidth="352"
+      Title="NewScene">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="21,24,0,0" TextWrapping="Wrap" Text="新しいシーンを作成" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="scenetext" HorizontalAlignment="Left" Height="28" Margin="21,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" FontSize="18"/>
+        <Button x:Name="createb" Content="作成" HorizontalAlignment="Left" Margin="226,140,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Page>

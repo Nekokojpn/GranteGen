@@ -1,0 +1,15 @@
+﻿<Page x:Class="GranteGen.pages.NavigateExplain"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GranteGen.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="728" d:DesignWidth="352"
+      Title="NavigateExplain">
+
+    <Grid>
+        <TextBlock x:Name="explaintext" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="728" Width="352" FontSize="16" Foreground="#FF1F1C1C"/>
+
+    </Grid>
+</Page>

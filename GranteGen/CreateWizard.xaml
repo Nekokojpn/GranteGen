@@ -1,0 +1,31 @@
+﻿<Window x:Class="GranteGen.CreateWizard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GranteGen"
+        mc:Ignorable="d"
+        Title="CreateWizard" Height="450" Width="800" Foreground="#FF101011" Background="#FF101011">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,71.376,0,0" TextWrapping="Wrap" Text="プロジェクト名を入力します" VerticalAlignment="Top" Foreground="#FFE8E8F3" FontSize="18" FontFamily="Yu Mincho Light"/>
+        <Label Content="Grante" HorizontalAlignment="Left" Margin="32.04,27.576,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FFD5D5D5" FontFamily="Unispace"/>
+        <Label Content="作成ウィザード" HorizontalAlignment="Left" Margin="660.796,32.102,0,0" VerticalAlignment="Top" FontSize="16" Foreground="White" FontFamily="Yu Mincho Light"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="3.641" Margin="0,67.735,0,0" Stroke="Black" VerticalAlignment="Top" Width="790.97" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBox x:Name="titlet" HorizontalAlignment="Left" Height="30.208" Margin="43.368,105.213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246.659" FontSize="20" Foreground="Black" GotFocus="titlet_GotFocus"/>
+        <TextBlock HorizontalAlignment="Left" Margin="170.027,135.421,0,0" TextWrapping="Wrap" Text="フォルダ名になります" VerticalAlignment="Top" Foreground="#FFE8E8F3" FontFamily="Yu Mincho Light"/>
+        <Button x:Name="createb" Content="作成" HorizontalAlignment="Left" Margin="706.999,389.04,0,0" VerticalAlignment="Top" Width="75" Click="createb_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,160.964,0,0" TextWrapping="Wrap" Text="プロジェクトパスを指定します" VerticalAlignment="Top" Foreground="#FFE8E8F3" FontSize="18" FontFamily="Yu Mincho Light"/>
+        <TextBox x:Name="relt" HorizontalAlignment="Left" Height="30.208" Margin="43.368,194.801,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242.958" FontSize="20" Foreground="Black" GotFocus="titlet_GotFocus"/>
+        <Button x:Name="relb" Content="参照" HorizontalAlignment="Left" Margin="286.326,194.801,0,0" VerticalAlignment="Top" Width="28.564" Click="relb_Click" Height="30.208"/>
+
+    </Grid>
+</Window>

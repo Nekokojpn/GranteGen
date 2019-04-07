@@ -1,0 +1,33 @@
+﻿<Window x:Class="GranteGen.menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GranteGen"
+        mc:Ignorable="d"
+        Title="menu" Height="450" Width="800" Background="#FF101011">
+    <Grid>
+        <Label Content="Grante" HorizontalAlignment="Left" Margin="32.04,27.576,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FFD5D5D5" FontFamily="Unispace"/>
+        <Label Content="スタートメニュー" HorizontalAlignment="Left" Margin="644,32.102,0,0" VerticalAlignment="Top" FontSize="16" Foreground="White" FontFamily="Yu Mincho Light"/>
+        <Button x:Name="refb" Content="参照" HorizontalAlignment="Left" Margin="368.272,236.611,0,0" VerticalAlignment="Top" Width="75" Click="refb_Click"/>
+        <Label Content="プロジェクトフォルダから" HorizontalAlignment="Left" Margin="275.212,91.176,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Yu Mincho Light"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="3.641" Margin="0,67.735,0,0" Stroke="Black" VerticalAlignment="Top" Width="790.97" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Label Content="プロジェクトを作成する" HorizontalAlignment="Left" Margin="10,91.176,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Yu Mincho Light"/>
+        <Label Content="履歴" HorizontalAlignment="Left" Margin="561.945,91.176,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Yu Mincho Light"/>
+        <Label Content="empty" HorizontalAlignment="Left" Margin="561.945,120.399,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Yu Mincho Light"/>
+        <Button x:Name="createWizardb" Content="作成ウィザードを開く" HorizontalAlignment="Left" Margin="43.691,236.611,0,0" VerticalAlignment="Top" Width="107.952" Click="createWizardb_Click"/>
+        <TextBlock x:Name="refl" HorizontalAlignment="Left" Margin="289.629,120.399,0,0" TextWrapping="Wrap" Text="選択されていません" VerticalAlignment="Top" Foreground="White" FontFamily="Yu Mincho Light" Height="111.212" Width="153.643"/>
+        <Button x:Name="refokb" Content="OK" HorizontalAlignment="Left" Margin="288.272,236.611,0,0" VerticalAlignment="Top" Width="75" Click="refokb_Click"/>
+        <Button x:Name="deb" Content="debug" HorizontalAlignment="Left" Margin="44,338,0,0" VerticalAlignment="Top" Width="108" Click="Deb_Click"/>
+
+    </Grid>
+</Window>

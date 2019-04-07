@@ -1,0 +1,26 @@
+﻿<Window x:Class="GranteGen.Helper"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GranteGen"
+        mc:Ignorable="d"
+         Title="Helper" Height="323.34" Width="635.24" Foreground="#FF101011" Background="#FF101011" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="Grante" HorizontalAlignment="Left" Margin="535.845,257.94,0,0" VerticalAlignment="Top" Foreground="#FFD5D5D5" FontFamily="Unispace" Width="81.395"/>
+        <Label Content="ヘルプ" HorizontalAlignment="Left" Margin="1.029,255.594,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Yu Mincho Light" Width="69.336"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="3.641" Margin="2.583,253.387,0,0" Stroke="Black" VerticalAlignment="Top" Width="622.598" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBlock x:Name="HelpText" HorizontalAlignment="Left" Margin="10,57.666,0,0" TextWrapping="Wrap" Text="{Binding helptext}" VerticalAlignment="Top" Height="197.928" Width="607.24" Foreground="#FFD1D1EC" FontSize="16"/>
+        <TextBlock x:Name="title" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="{Binding titles}" VerticalAlignment="Top" Height="47.666" Width="607.24" Foreground="#FFE2E2F0" FontSize="20"/>
+
+    </Grid>
+</Window>

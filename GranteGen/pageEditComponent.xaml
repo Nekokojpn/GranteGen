@@ -1,0 +1,14 @@
+﻿<Window x:Class="GranteGen.pageEditComponent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GranteGen"
+        mc:Ignorable="d"
+        Title="pageEditComponent" Height="447.941" Width="163.616" Background="#FF111111">
+    <Grid>
+        <Button x:Name="imageb" Content="画像を張り付ける" HorizontalAlignment="Left" Margin="18.654,10,0,0" VerticalAlignment="Top" Width="110.011"/>
+        <Button x:Name="buttonb" Content=".NET Buttonコントロール" HorizontalAlignment="Left" Margin="18.654,34.96,0,0" VerticalAlignment="Top" Width="126.962"/>
+
+    </Grid>
+</Window>
